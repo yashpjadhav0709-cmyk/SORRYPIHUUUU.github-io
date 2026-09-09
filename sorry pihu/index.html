@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For My Pihu ❤️</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:linear-gradient(135deg,#ffd6e7,#fff0f6);
+    color:#4a1830;
+    min-height:100vh;
+}
+
+/* OPENING PAGE */
+
+#opening{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:25px;
+}
+
+.open-box{
+    width:100%;
+    max-width:500px;
+    background:rgba(255,255,255,0.92);
+    padding:35px 25px;
+    border-radius:25px;
+    text-align:center;
+    box-shadow:0 10px 35px rgba(0,0,0,0.15);
+}
+
+.open-box h1{
+    font-size:32px;
+    margin-bottom:20px;
+}
+
+.open-box p{
+    font-size:18px;
+    line-height:1.7;
+    margin-bottom:25px;
+}
+
+.open-btn{
+    border:none;
+    background:#ff4f81;
+    color:white;
+    padding:15px 28px;
+    border-radius:30px;
+    font-size:17px;
+    font-weight:bold;
+    cursor:pointer;
+    box-shadow:0 5px 15px rgba(255,79,129,0.35);
+}
+
+.open-btn:active{
+    transform:scale(0.96);
+}
+
+/* MAIN PAGE */
+
+#main{
+    display:none;
+    padding:25px 15px 50px;
+}
+
+.container{
+    width:100%;
+    max-width:700px;
+    margin:auto;
+}
+
+.title{
+    text-align:center;
+    font-size:32px;
+    margin:15px 0 10px;
+}
+
+.subtitle{
+    text-align:center;
+    font-size:17px;
+    line-height:1.6;
+    margin-bottom:30px;
+}
+
+/* SHAYARI */
+
+.shayari{
+    background:rgba(255,255,255,0.9);
+    border-radius:22px;
+    padding:25px 20px;
+    text-align:center;
+    margin-bottom:30px;
+    box-shadow:0 7px 25px rgba(0,0,0,0.12);
+}
+
+.shayari p{
+    font-size:18px;
+    line-height:1.9;
+}
+
+/* GALLERY */
+
+.gallery{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.photo-card{
+    background:white;
+    padding:10px;
+    border-radius:20px;
+    box-shadow:0 7px 25px rgba(0,0,0,0.15);
+    overflow:hidden;
+}
+
+.photo-card img{
+    width:100%;
+    height:auto;
+    display:block;
+    object-fit:contain;
+    border-radius:15px;
+}
+
+/* END MESSAGE */
+
+.end-message{
+    text-align:center;
+    margin-top:35px;
+    background:rgba(255,255,255,0.9);
+    padding:25px 20px;
+    border-radius:22px;
+    box-shadow:0 7px 25px rgba(0,0,0,0.12);
+}
+
+.end-message h2{
+    margin-bottom:12px;
+}
+
+.end-message p{
+    font-size:17px;
+    line-height:1.7;
+}
+
+.heart{
+    font-size:40px;
+    margin-top:15px;
+}
+
+/* MOBILE */
+
+@media(max-width:600px){
+
+    .open-box h1{
+        font-size:27px;
+    }
+
+    .open-box p{
+        font-size:16px;
+    }
+
+    .title{
+        font-size:27px;
+    }
+
+    .shayari p{
+        font-size:16px;
+    }
+
+    .photo-card{
+        padding:7px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- OPENING -->
+
+<section id="opening">
+
+    <div class="open-box">
+
+        <h1>For My Pihu ❤️</h1>
+
+        <p>
+            काही गोष्टी शब्दांत सांगता येत नाहीत...
+            म्हणून आज माझं मन तुझ्यासमोर उघडतोय. ❤️
+        </p>
+
+        <p>
+            फक्त एकदा हे उघड... 💌
+        </p>
+
+        <button class="open-btn" id="openButton">
+            माझं मन उघड 💌
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- MAIN -->
+
+<section id="main">
+
+    <div class="container">
+
+        <h1 class="title">
+            माझ्या Pihu साठी ❤️
+        </h1>
+
+        <p class="subtitle">
+            काही क्षण फक्त आठवणी नसतात...
+            ते आपल्या मनाचा एक सुंदर भाग बनतात. ❤️
+        </p>
+
+
+        <!-- SHAYARI -->
+
+        <div class="shayari">
+
+            <p>
+                तुझ्यासोबतचा प्रत्येक क्षण खास आहे,<br>
+                तुझ्या हसण्यातच माझा आनंद आहे. ❤️<br><br>
+
+                कितीही शब्द कमी पडले तरी,<br>
+                माझ्या मनात तुझ्यासाठी नेहमीच एक खास जागा आहे. 💕
+            </p>
+
+        </div>
+
+
+        <!-- PHOTOS -->
+
+        <div class="gallery">
+
+            <div class="photo-card">
+                <img src="pihu1.jpeg" alt="Pihu Photo 1">
+            </div>
+
+            <div class="photo-card">
+                <img src="pihu2.jpeg" alt="Pihu Photo 2">
+            </div>
+
+            <div class="photo-card">
+                <img src="pihu3.jpeg" alt="Pihu Photo 3">
+            </div>
+
+            <div class="photo-card">
+                <img src="pihu4.jpeg" alt="Pihu Photo 4">
+            </div>
+
+        </div>
+
+
+        <!-- FINAL MESSAGE -->
+
+        <div class="end-message">
+
+            <h2>एक छोटीशी गोष्ट... ❤️</h2>
+
+            <p>
+                आयुष्यात कितीही लोक भेटले,
+                कितीही सुंदर क्षण आले,
+                तरी काही व्यक्ती मनात वेगळीच जागा बनवतात...
+                <br><br>
+
+                माझ्यासाठी ती व्यक्ती म्हणजे तू. ❤️
+            </p>
+
+            <div class="heart">
+                ❤️
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- MUSIC -->
+
+<audio id="song" loop>
+    <source src="song.mp3" type="audio/mpeg">
+</audio>
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function(){
+
+    const button = document.getElementById("openButton");
+    const opening = document.getElementById("opening");
+    const main = document.getElementById("main");
+    const song = document.getElementById("song");
+
+    button.addEventListener("click", function(){
+
+        opening.style.display = "none";
+        main.style.display = "block";
+
+        song.play().catch(function(){
+            console.log("Music needs user permission.");
+        });
+
+        window.scrollTo({
+            top:0,
+            behavior:"smooth"
+        });
+
+    });
+
+});
+
+</script>
+
+</body>
+</html>
